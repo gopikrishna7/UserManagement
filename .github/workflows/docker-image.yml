@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/user_mgmt:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/user_mgmt:1
